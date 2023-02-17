@@ -121,7 +121,7 @@ do
     if [ $? -eq 1 ];
     then
         echo -e "${YELLOW}[WARN]${NORMAL} $i is not a valid instance. Check if a volume matches this ID"
-        VOL=(openstack volume show $i -f value -c id)
+        VOL=$(openstack volume show $i -f value -c id)
         if [ $? -eq 0 ]
         then
             echo -e "${GREEN}[INF]${NORMAL} $i is an ID from cinder "
