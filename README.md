@@ -67,7 +67,7 @@ If you have several AZ or several cinder volume type:
 
 ```
 
-The script check sif the `config.json` exists and the syntax
+The script checks if the `config.json` exists and the syntax
 before executing anything.
 
 Usage
