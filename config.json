@@ -1,0 +1,8 @@
+{
+  "nova": {
+    "nova": "nova-vms"
+  },
+  "cinder": {
+    "__DEFAULT__": "cinder-volumes"
+  }
+}
