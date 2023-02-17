@@ -132,5 +132,5 @@ The script uses the default value.
 
 Author Information
 ------
-Romain CHANU
+Romain CHANU  
 Université Claude Bernard Lyon1
