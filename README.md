@@ -93,7 +93,11 @@ openstack volume list --all-projects -f value -c ID > volumes
 bash cephunlock.sh volumes
 ```
 
-
+Maybe only one thing to update
+-------------
+Line 108 you will find how the block device is named in your Ceph pool.
+You could need to update the script to match the value in your cinder.conf (volume_name_template).
+The script uses the default value.
 
 Author Information
 ------
